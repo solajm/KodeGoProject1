@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Functional Korean Designer Home</title>
+    <link href="house.png" rel="icon" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="css/fontello.css" rel="stylesheet">
+    <link href="css/main_style.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="main.html"><img src="wlogo.png" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listingpage.html">Listing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="text">
+        <div class="container" style="padding-bottom: 80px; padding-top: 110px;">
+            <div class="row d-flex justify-content-right">
+                <h1 style="align-items: flex-end;" class="sc_title_align_center sc_title sc_title_underline  color_1">
+                    Listings</h1>
+            </div>
+
+
+            <div class="container mt-3 mb-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <select id="sorting-select" class="form-select">
+                            <option value="" hidden>Sort By</option>
+                            <option value="price-low-to-high">Price: Low to High</option>
+                            <option value="price-high-to-low">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="text">
+                <div class="row" id="listings-container">
+                    <!-- Listing 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h1.jpg" class="card-img-top" alt="Listing 1">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Bohemian Domicile - Breathtaking Brilliant House and Lot</h4>
+                                <p class="card-text text-secondary">5 Bedrooms, 4 Bathrooms</p>
+                                <h5 class="card-text"><b>₱20,000,000</b></h5>
+                                <a href="listing1.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Listing 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h2.jpg" class="card-img-top" alt="Listing 2">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">A Functional Korean Designer Home</h4>
+                                <p class="card-text text-secondary">5 Bedrooms, 5 Bathrooms</p>
+                                <h5 class="card-text"><b>₱150,000,000</b></h5>
+                                <a href="listing2.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Listing 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h3.jpg" class="card-img-top" alt="Listing 3">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">A FunctModern Industrial House in Manila Southwoods</h4>
+                                <p class="card-text text-secondary">4 Bedrooms, 4.5 Bathrooms</p>
+                                <h5 class="card-text"><b>₱52,000,000</b></h5>
+                                <a href="listing3.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Listing 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h4.jpg" class="card-img-top" alt="Listing 4">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Bright and Airy Modern Haven in Beverly Hills</h4>
+                                <p class="card-text text-secondary">5 Bedrooms, 8 Bathrooms</p>
+                                <h5 class="card-text"><b>₱70,000,000</b></h5>
+                                <a href="listing4.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Listing 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h5.jpg" class="card-img-top" alt="Listing 5">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">The Adamantite - Timeless Futuristic Mansion</h4>
+                                <p class="card-text text-secondary">5 Bedrooms, 9 Bathrooms</p>
+                                <h5 class="card-text"><b>₱325,000,000</b></h5>
+                                <a href="listing5.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Listing 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="h6.jpg" class="card-img-top" alt="Listing 6">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">The Black Lair, The Most Impressive Home</h4>
+                                <p class="card-text text-secondary">4 Bedrooms, 4 Bathrooms</p>
+                                <h5 class="card-text"><b>₱72,000,000</b></h5>
+                                <a href="listing6.html" class="button" style="font-size: 20px;">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="sc_title_align_left sc_title sc_title_underline color_2">Navigation</h5>
+                    <ul class="list">
+                        <li><a href="home.html" style="text-decoration: none; color: #fa6839;">Home</a></li>
+                        <li><a href="listings.html" style="text-decoration: none; color: #fa6839;">Listings</a></li>
+                        <li><a href="aboutus.html" style="text-decoration: none; color: #fa6839;">About Us</a></li>
+                        <li><a href="contactus.html" style="text-decoration: none; color: #fa6839;">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="sc_title_align_left sc_title sc_title_underline color_2">Contact Us</h5>
+                    <ul class="list">
+                        <li><i class="bi bi-envelope-fill me-2"></i>1234 Main Street City, State 12345</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i>Email: info@casa.com</li>
+                        <li><i class="bi bi-telephone-fill me-2"></i>Phone: 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+    <!-- SORTING SCRIPT -->
+    <script>
+
+        // Get the element with id "listings-container" and assign it to the variable listingsContainer
+        var listingsContainer = document.getElementById("listings-container");
+
+        // Get the element with id "sorting-select" and assign it to the variable sortingSelect
+        var sortingSelect = document.getElementById("sorting-select");
+
+        // Add an event listener for the "change" event on the sortingSelect element, which triggers a function
+        sortingSelect.addEventListener("change", function () {
+            // Get the selected value from the sortingSelect element and assign it to the variable selectedValue
+            var selectedValue = sortingSelect.value;
+
+            // Convert the children of listingsContainer into an array and assign it to the variable listingsArray
+            var listingsArray = Array.from(listingsContainer.children);
+
+            // Sort the listingsArray based on the selected value
+            if (selectedValue === "price-high-to-low") {
+                // Sort the listingsArray in descending order of price
+                listingsArray.sort(function (a, b) {
+                    // Extract the price from the "card-text" element of each listing and parse it as an integer
+                    var priceA = parseInt(a.querySelector(".card-text b").innerText.replace(/[^0-9]/g, ''));
+                    var priceB = parseInt(b.querySelector(".card-text b").innerText.replace(/[^0-9]/g, ''));
+                    // Compare the prices and return the result for sorting
+                    return priceB - priceA;
+                });
+            } else if (selectedValue === "price-low-to-high") {
+                // Sort the listingsArray in ascending order of price
+                listingsArray.sort(function (a, b) {
+                    // Extract the price from the "card-text" element of each listing and parse it as an integer
+                    var priceA = parseInt(a.querySelector(".card-text b").innerText.replace(/[^0-9]/g, ''));
+                    var priceB = parseInt(b.querySelector(".card-text b").innerText.replace(/[^0-9]/g, ''));
+                    // Compare the prices and return the result for sorting
+                    return priceA - priceB;
+                });
+            }
+
+            // Append the sorted listings back to the listingsContainer
+            listingsArray.forEach(function (listing) {
+                listingsContainer.appendChild(listing);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
