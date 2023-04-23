@@ -27,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+.navbar {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
 .smlbtn {
     color: white;
     background-color: #f15b26;
@@ -88,68 +93,13 @@ body {
     font-size: 16px;
 }
 
-@media only screen and (max-width: 1897px) {
-    #interested {
-        display: flex;
 
-    }
-
-    #interested h3 {
-        font-size: 1.2rem;
-    }
-
-    #interested2 {
-        display: none;
-
-    }
-
+#interested2 {
+    padding-top: 100px;
 }
 
-@media only screen and (min-width: 1573px) {
-    #interested {
-        display: flex;
-
-    }
-
-    #interested h3 {
-        font-size: 10px;
-    }
-
-    #interested2 {
-        display: none;
-
-    }
-
-}
-
-@media only screen and (min-width: 987px) {
-    #interested {
-        display: flex;
-
-    }
-
-    #interested h3 {
-        font-size: 1.2rem;
-    }
-
-    #interested2 {
-        display: none;
-
-    }
-
-}
-
-@media only screen and (max-width: 987px) {
-    #interested {
-        display: none;
-    }
-
-    #interested2 {
-        display: flex;
-        justify-content: center;
-
-    }
-
+.carousel {
+    padding-top: 50px;
 }
 
 
@@ -373,4 +323,111 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 1897px) {
+    #interested {
+        display: flex;
+
+    }
+
+    #interested h3 {
+        font-size: 1.2rem;
+    }
+
+    #interested2 {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1573px) {
+    #interested {
+        display: flex;
+
+    }
+
+    #interested h3 {
+        font-size: 10px;
+    }
+
+    #interested2 {
+        display: none;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 987px) {
+    #interested {
+        display: flex;
+
+    }
+
+    #interested h3 {
+        font-size: 1.2rem;
+    }
+
+    #interested2 {
+        display: none;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+    #leftside {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 987px) {
+    #interested {
+        display: none;
+    }
+
+    #interested2 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    footer {
+
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .carousel-inner {
+        padding-top: 31px;
+    }
+
+    #contactinfo {
+        padding-top: 50px;
+    }
+#leftside {
+    margin-top: 150px;
+}
+
+    #listing-container {
+        font-size: 20px;
+    }
 }
